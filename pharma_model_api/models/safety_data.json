@@ -1,0 +1,159 @@
+{
+  "enhanced_beers_criteria": {
+    "Aspirin 325mg": {
+      "min_age": 18,
+      "max_age": null,
+      "elderly_risk": "GI bleeding, stroke risk >65",
+      "reason": "Risk of Reye syndrome in children/teens"
+    },
+    "Ibuprofen 400mg": {
+      "min_age": 12,
+      "max_age": null,
+      "elderly_risk": "Kidney, heart, GI risks >65",
+      "reason": "Kidney concerns in children under 12"
+    },
+    "Ibuprofen 200mg": {
+      "min_age": 6,
+      "max_age": null,
+      "elderly_risk": "Kidney, heart, GI risks >65",
+      "reason": "Kidney toxicity risk in young children"
+    },
+    "Naproxen 220mg": {
+      "min_age": 12,
+      "max_age": null,
+      "elderly_risk": "Higher GI/cardiovascular risk than ibuprofen",
+      "reason": "Not studied in children under 12"
+    },
+    "Acetaminophen 500mg": {
+      "min_age": 12,
+      "max_age": null,
+      "elderly_risk": "Liver toxicity with alcohol/chronic use",
+      "reason": "Requires weight-based dosing in children"
+    },
+    "Omeprazole 20mg": {
+      "min_age": 18,
+      "max_age": null,
+      "elderly_risk": "Bone fractures, B12/magnesium deficiency",
+      "reason": "Long-term safety not established in children"
+    },
+    "Diphenhydramine 25mg": {
+      "min_age": 2,
+      "max_age": 65,
+      "elderly_risk": "Falls, cognitive impairment, urinary retention",
+      "reason": "Anticholinergic effects dangerous in elderly"
+    },
+    "Loperamide 2mg": {
+      "min_age": 12,
+      "max_age": null,
+      "elderly_risk": "Constipation, may mask serious conditions",
+      "reason": "Risk of serious side effects, dehydration in children"
+    },
+    "Cetirizine 10mg": {
+      "min_age": 2,
+      "max_age": null,
+      "elderly_risk": "Drowsiness, falls risk",
+      "reason": "Liquid formulation preferred for young children"
+    },
+    "Loratadine 10mg": {
+      "min_age": 2,
+      "max_age": null,
+      "elderly_risk": "Generally safe, preferred in elderly",
+      "reason": "Requires liquid formulation <6 years"
+    },
+    "Clotrimazole 1% Cream": {
+      "min_age": 2,
+      "max_age": null,
+      "elderly_risk": "Generally safe",
+      "reason": "Safe for topical use all ages"
+    },
+    "Miconazole 2% Cream": {
+      "min_age": 2,
+      "max_age": null,
+      "elderly_risk": "Generally safe",
+      "reason": "Safe for topical use all ages"
+    },
+    "Benzoyl Peroxide 2.5%": {
+      "min_age": 12,
+      "max_age": null,
+      "elderly_risk": "Increased skin sensitivity",
+      "reason": "Acne typically starts in adolescence"
+    }
+  },
+  "comprehensive_drug_interactions": {
+    "warfarin": {
+      "interactions": ["Aspirin 325mg", "Ibuprofen 400mg", "Omeprazole 20mg"],
+      "risk_level": "HIGH",
+      "mechanism": "Increased bleeding risk"
+    },
+    "metformin": {
+      "interactions": ["Alcohol-containing preparations"],
+      "risk_level": "MODERATE", 
+      "mechanism": "Blood sugar changes"
+    },
+    "lisinopril": {
+      "interactions": ["Ibuprofen 400mg", "Naproxen 220mg"],
+      "risk_level": "HIGH",
+      "mechanism": "Reduced kidney function"
+    },
+    "digoxin": {
+      "interactions": ["Omeprazole 20mg", "Antacids"],
+      "risk_level": "HIGH",
+      "mechanism": "Altered absorption"
+    },
+    "sertraline": {
+      "interactions": ["Aspirin 325mg", "Ibuprofen 400mg"],
+      "risk_level": "MODERATE",
+      "mechanism": "Bleeding risk"
+    },
+    "levothyroxine": {
+      "interactions": ["Calcium carbonate", "Omeprazole 20mg"],
+      "risk_level": "HIGH",
+      "mechanism": "Reduced absorption"
+    }
+  },
+  "green_category": [
+    "Fungal infection",
+    "Allergy",
+    "GERD",
+    "Common Cold",
+    "Migraine", 
+    "Gastroenteritis",
+    "Acne",
+    "Urinary Tract Infection",
+    "Arthritis",
+    "Osteoarthritis", 
+    "Vertigo",
+    "Psoriasis",
+    "Impetigo",
+    "Varicose Veins",
+    "Dimorphic Hemmorhoids(piles)",
+    "Hypoglycemia"
+  ],
+  "red_category": [
+    "AIDS",
+    "Diabetes", 
+    "Bronchial Asthma",
+    "Hypertension",
+    "Cervical spondylosis",
+    "Paralysis (brain hemorrhage)",
+    "Jaundice",
+    "Malaria",
+    "Chicken pox",
+    "Dengue", 
+    "Typhoid",
+    "hepatitis A",
+    "Hepatitis B",
+    "Hepatitis C",
+    "Hepatitis D",
+    "Hepatitis E",
+    "Alcoholic hepatitis",
+    "Tuberculosis",
+    "Pneumonia",
+    "Heart attack",
+    "Hypothyroidism",
+    "Hyperthyroidism",
+    "Chronic cholestasis",
+    "Drug Reaction",
+    "Peptic ulcer diseae"
+  ]
+}

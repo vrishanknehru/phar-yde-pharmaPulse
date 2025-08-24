@@ -1,0 +1,207 @@
+{
+  "comprehensive_otc_database": {
+    "Fungal Infection": {
+      "medications": [
+        "Clotrimazole 1% Cream",
+        "Miconazole 2% Cream",
+        "Terbinafine 1% Cream",
+        "Tolnaftate 1% Powder"
+      ],
+      "dosage": "Apply thin layer to affected area 2-3 times daily",
+      "duration": "2-4 weeks (continue 1-2 weeks after symptoms resolve)",
+      "source": "FDA OTC Antifungal Monograph (21 CFR 333)",
+      "safety_notes": "External use only. Discontinue if irritation occurs.",
+      "age_restriction": "Safe for ages 2+ years"
+    },
+    "Acne": {
+      "medications": [
+        "Benzoyl Peroxide 2.5-10%",
+        "Salicylic Acid 0.5-2%",
+        "Sulfur 3-10%",
+        "Gentle Cleanser (non-comedogenic)"
+      ],
+      "dosage": "Start with lower concentrations, apply once daily initially",
+      "duration": "6-12 weeks for full effect",
+      "source": "FDA OTC Acne Monograph (21 CFR 333.310)",
+      "safety_notes": "May cause dryness, start slowly. Use sunscreen.",
+      "age_restriction": "Benzoyl peroxide safe for ages 12+ years"
+    },
+    "GERD": {
+      "medications": [
+        "Omeprazole 20mg",
+        "Ranitidine 75mg",
+        "Aluminum/Magnesium Hydroxide",
+        "Calcium Carbonate 500mg"
+      ],
+      "dosage": "Omeprazole: 20mg once daily before breakfast",
+      "duration": "14 days (may repeat after 4 months)",
+      "source": "FDA OTC PPI Monograph (21 CFR 201.203)",
+      "safety_notes": "Take 30-60 minutes before meals. Max 3 courses/year.",
+      "age_restriction": "Omeprazole safe for ages 18+ years"
+    },
+    "Common Cold": {
+      "medications": [
+        "Paracetamol 500mg",
+        "Phenylephrine 10mg",
+        "Dextromethorphan 15mg",
+        "Guaifenesin 200mg"
+      ],
+      "dosage": "Paracetamol: 500-1000mg every 4-6 hours (max 4g/day)",
+      "duration": "5-7 days maximum",
+      "source": "FDA OTC Cold/Cough Monograph (21 CFR 341)",
+      "safety_notes": "Do not exceed recommended doses. Avoid alcohol.",
+      "age_restriction": "Cough suppressants not recommended under 4 years"
+    },
+    "Migraine": {
+      "medications": [
+        "Ibuprofen 400mg",
+        "Aspirin 325mg",
+        "Acetaminophen 500mg",
+        "Caffeine 65mg (combination)"
+      ],
+      "dosage": "Take at first sign of headache. Ibuprofen: 400-600mg",
+      "duration": "Single doses, max 2-3 days consecutive use",
+      "source": "FDA OTC Analgesic Monograph (21 CFR 201.325)",
+      "safety_notes": "Take with food to reduce GI irritation",
+      "age_restriction": "Aspirin contraindicated under 18 years"
+    },
+    "Gastroenteritis": {
+      "medications": [
+        "ORS Solution (WHO formula)",
+        "Loperamide 2mg",
+        "Simethicone 40mg",
+        "Probiotics (Lactobacillus)"
+      ],
+      "dosage": "ORS: 200ml after each loose stool. Loperamide: 2mg after each loose stool, max 8mg/day",
+      "duration": "3-5 days maximum",
+      "source": "WHO/UNICEF ORS Guidelines, FDA OTC Antidiarrheal Monograph",
+      "safety_notes": "Maintain hydration. Avoid loperamide if fever/blood in stool.",
+      "age_restriction": "Loperamide safe for ages 6+ years"
+    },
+    "Allergy": {
+      "medications": [
+        "Cetirizine 10mg",
+        "Loratadine 10mg",
+        "Diphenhydramine 25mg",
+        "Nasal Saline Rinse"
+      ],
+      "dosage": "Cetirizine/Loratadine: 10mg once daily",
+      "duration": "As needed during allergy season",
+      "source": "FDA OTC Antihistamine Monograph (21 CFR 341.72)",
+      "safety_notes": "Non-sedating antihistamines preferred during day",
+      "age_restriction": "Cetirizine safe for ages 2+ years"
+    },
+    "Urinary Tract Infection": {
+      "medications": [
+        "Cranberry Extract 500mg",
+        "D-Mannose 2g",
+        "Phenazopyridine 95mg",
+        "Increased Water Intake"
+      ],
+      "dosage": "Cranberry: 500mg twice daily. Increase water to 8-10 glasses/day",
+      "duration": "3-5 days (symptomatic relief only)",
+      "source": "FDA OTC Urinary Analgesic Monograph (21 CFR 201.302)",
+      "safety_notes": "These provide symptom relief only. See doctor if no improvement in 48 hours.",
+      "age_restriction": "Phenazopyridine safe for ages 12+ years"
+    },
+    "Osteoarthritis": {
+      "medications": [
+        "Ibuprofen 400mg",
+        "Naproxen 220mg",
+        "Acetaminophen 650mg",
+        "Topical Diclofenac 1%"
+      ],
+      "dosage": "Ibuprofen: 400mg 3-4 times daily with food",
+      "duration": "Chronic use - lowest effective dose",
+      "source": "FDA OTC NSAID Monograph, ACR Osteoarthritis Guidelines",
+      "safety_notes": "Regular monitoring needed for chronic use",
+      "age_restriction": "NSAIDs safe for ages 12+ years"
+    },
+    "Vertigo": {
+      "medications": [
+        "Meclizine 25mg",
+        "Dimenhydrinate 50mg",
+        "Ginger Extract 250mg",
+        "Balance Exercises"
+      ],
+      "dosage": "Meclizine: 25-50mg daily as needed",
+      "duration": "As needed for symptoms",
+      "source": "FDA OTC Motion Sickness Monograph (21 CFR 341.74)",
+      "safety_notes": "May cause drowsiness. Avoid driving.",
+      "age_restriction": "Meclizine safe for ages 12+ years"
+    }
+  },
+  "green_category": [
+    "Fungal Infection",
+    "Allergy",
+    "GERD",
+    "Common Cold",
+    "Migraine",
+    "Gastroenteritis",
+    "Acne",
+    "Urinary Tract Infection",
+    "Constipation",
+    "Osteoarthritis",
+    "Arthritis",
+    "Vertigo",
+    "Psoriasis",
+    "Impetigo",
+    "Varicose Veins",
+    "Dimorphic Hemmorhoids (piles)",
+    "Hypoglycemia"
+  ],
+  "red_category": [
+    "AIDS",
+    "Diabetes",
+    "Bronchial Asthma",
+    "Hypertension",
+    "Cervical Spondylosis",
+    "Paralysis (brain hemorrhage)",
+    "Jaundice",
+    "Malaria",
+    "Chickenpox",
+    "Dengue",
+    "Typhoid",
+    "Hepatitis A",
+    "Hepatitis B",
+    "Hepatitis C",
+    "Hepatitis D",
+    "Hepatitis E",
+    "Alcoholic Hepatitis",
+    "Tuberculosis",
+    "Pneumonia",
+    "Heart Attack",
+    "Hypothyroidism",
+    "Hyperthyroidism",
+    "Chronic Cholestasis",
+    "Drug Reaction",
+    "Peptic Ulcer Disease"
+  ],
+  "red_category_consultations": {
+    "AIDS": "Requires specialized HIV treatment with antiretroviral therapy. Immediate medical consultation required.",
+    "Diabetes": "Requires prescription medications (insulin/oral hypoglycemics) and medical monitoring. See doctor immediately.",
+    "Bronchial Asthma": "Requires prescription bronchodilators and corticosteroids. Emergency condition during attacks.",
+    "Hypertension": "Requires prescription antihypertensive medications and regular monitoring. Silent killer - see doctor.",
+    "Cervical Spondylosis": "Requires imaging and specialized treatment. May need prescription muscle relaxants/physiotherapy.",
+    "Paralysis (brain hemorrhage)": "Medical emergency requiring immediate hospitalization and specialized care.",
+    "Jaundice": "Indicates serious liver condition. Requires immediate medical evaluation and treatment.",
+    "Malaria": "Life-threatening condition requiring prescription antimalarial drugs. Immediate medical attention.",
+    "Chickenpox": "Highly contagious viral infection. May require antiviral prescription drugs, especially in adults.",
+    "Dengue": "Potentially fatal viral infection. Requires immediate medical monitoring for complications.",
+    "Typhoid": "Serious bacterial infection requiring prescription antibiotics. Immediate medical attention.",
+    "Hepatitis A": "Viral liver infection requiring medical monitoring and supportive care.",
+    "Hepatitis B": "Chronic viral infection requiring specialized antiviral treatment and monitoring.",
+    "Hepatitis C": "Chronic viral infection requiring prescription direct-acting antivirals.",
+    "Hepatitis D": "Co-infection with Hepatitis B requiring specialized medical care.",
+    "Hepatitis E": "Acute viral hepatitis requiring medical monitoring, especially in pregnancy.",
+    "Alcoholic Hepatitis": "Serious liver condition requiring immediate medical care and alcohol cessation.",
+    "Tuberculosis": "Serious bacterial infection requiring multiple prescription antibiotics for 6-9 months.",
+    "Pneumonia": "Serious lung infection requiring prescription antibiotics. Can be life-threatening.",
+    "Heart Attack": "Medical emergency requiring immediate hospitalization and specialized cardiac care.",
+    "Hypothyroidism": "Requires lifelong thyroid hormone replacement therapy and monitoring.",
+    "Hyperthyroidism": "Requires prescription antithyroid medications or radioactive iodine treatment.",
+    "Chronic Cholestasis": "Serious liver condition requiring specialized medical evaluation and treatment.",
+    "Drug Reaction": "May require immediate medical attention depending on severity. Discontinue offending drug.",
+    "Peptic Ulcer Disease": "Requires prescription proton pump inhibitors and possible H. pylori treatment."
+  }
+}
